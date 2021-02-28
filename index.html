@@ -20,12 +20,14 @@
   <link rel="stylesheet" href="css/main.css">
 
   <meta name="theme-color" content="#fafafa">
+  <link rel="stylesheet" href="css/default.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
 
 <body>
 
   <!-- Add your site or application content here -->
-  <p>Hello world! This is HTML5 Boilerplate.</p>
   <script src="js/vendor/modernizr-3.11.2.min.js"></script>
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>
@@ -36,6 +38,29 @@
     ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
   </script>
   <script src="https://www.google-analytics.com/analytics.js" async></script>
+
+  <div class="top-nav" id="myTop-nav">
+    <a href="#" class="active">Vladimír</a>
+    <a href="#">Šimek</a>
+    <a href="#">Je</a>
+    <a href="#">Největší</a>
+    <a href="#">Frajer</a>
+    <a href="#">Na</a>
+    <a href="#">Světě</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+  <style>
+    body, html {
+      margin: 0;
+      padding: 0;
+      width: 100vw;
+    }
+    .bg{background:url("https://i.imgur.com/bRy2IFE.jpg"),linear-gradient(233deg, #e56420, #c22525, #3d9c31, #37bbde);width:100vw;height:93vh;background-size:cover;background-blend-mode:hard-light;animation:hue-animate 4s linear infinite}@keyframes hue-animate{from{-webkit-filter:hue-rotate(0);-moz-filter:hue-rotate(0);filter:hue-rotate(0)}to{-webkit-filter:hue-rotate(360deg);-moz-filter:hue-rotate(360deg);filter:hue-rotate(360deg)}}
+
+  </style>
+  <div class="bg"></div>
 </body>
 
 </html>
